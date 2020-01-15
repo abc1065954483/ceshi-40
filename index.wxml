@@ -1,14 +1,27 @@
 <view class="nav">
-<view class="nav1">项目</view>
+<!-- <view class="nav1">项目</view>
 <view class="nav1">文件</view>
 <view class="nav1">管理</view>
-<view class="nav1">界面</view>
-<view class="nav1">界面111</view>
-<view class="nav1">界面122222221</view>
-<view class="nav1">界面12222555552221</view>
-<view class="nav1">界面12222555552221</view><view class="nav1">界面12222555552221</view>
-<view class="nav1">测试666661</view>
+<view class="nav1">界面</view> -->
 
 
+<view class="search">
+<view class="search-bolck" data-id="{{id}}">{{searchinput}}
+{{id}}
 
+</view>
+
+</view>
+
+<!-- <checkbox ></checkbox>
+<image src=""></image> -->
+<!-- <view class="images">
+<image></image>
+</view> -->
+
+</view>
+<view class="itemss">
+<view class="items" wx:key='id' wx:for='{{navs}}' wx:for-index='i' wx:for-item='v'>
+{{v.name}}
+</view>
 </view>

@@ -3,5 +3,26 @@
 }
 .nav1{
   flex: 1;
-  color: #ccc
+  color:red
+}
+.search{
+width: 750rpx;
+height: 100rpx;
+background-color: green;
+display: flex;
+justify-content: center;
+align-items: center
+}
+.search-bolck{
+width: 700rpx;
+height: 80rpx;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5rpx;
+}
+.itemss{
+    display: flex;
+  color: yellow
 }
